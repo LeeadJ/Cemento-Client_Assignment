@@ -1,0 +1,43 @@
+{
+  "columns": [
+    {
+      "id": "column1",
+      "ordinalNo": 1,
+      "title": "Name",
+      "type": "string"
+    },
+    {
+      "id": "column2",
+      "ordinalNo": 2,
+      "title": "Age",
+      "type": "number"
+    },
+    {
+      "id": "column3",
+      "ordinalNo": 3,
+      "title": "Address",
+      "type": "string",
+      "width": 150
+    }
+  ],
+  "data": [
+    {
+      "id": "row1",
+      "column1": "Leead King",
+      "column2": 28,
+      "column3": "Ra'anana"
+    },
+    {
+      "id": "row2",
+      "column1": "Maayan Queen",
+      "column2": 25,
+      "column3": "Tel Mond"
+    },
+    {
+      "id": "row3",
+      "column1": "John Deer",
+      "column2": 45,
+      "column3": "Tel Aviv"
+    }
+  ]
+}
