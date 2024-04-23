@@ -18,7 +18,11 @@ function App() {
 
   return (
     <div className='main'>
-      <h1>Client Side - Assignment 1</h1>
+      <div className='titleBar'>
+        <img src={'./public/cemento.png'} alt="Logo" className="logo" />  
+        <h1>Client Side - Assignment 1</h1>
+         
+      </div>
       {tableData && (
         <DataTable columns={tableData.columns} data={tableData.data}/>
       )}

@@ -7,7 +7,21 @@
   gap: 5%;
   padding: 5%;
 }
+.titleBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
 
 h1 {
   font-size: 3vw;
+}
+
+.logo {
+  width: 17vw; 
+  height: auto; 
+  position: absolute;
+  left: 100px;
 }
